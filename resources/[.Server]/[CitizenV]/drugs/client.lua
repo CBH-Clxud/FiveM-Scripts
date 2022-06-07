@@ -9,13 +9,13 @@
 
 -----------------------------------------------ESX-------------------------------------------------------
 local PlayerData                = {}
-RegisterNetEvent('esx:playerLoaded')
-AddEventHandler('esx:playerLoaded', function(xPlayer)
+RegisterNetEvent('playerLoaded')
+AddEventHandler('playerLoaded', function(xPlayer)
     PlayerData = xPlayer
 end)
 
-RegisterNetEvent('esx:setJob')
-AddEventHandler('esx:setJob', function(job)
+RegisterNetEvent('setJob')
+AddEventHandler('setJob', function(job)
     PlayerData.job = job
 end)
 
